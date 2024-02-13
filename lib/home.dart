@@ -1,4 +1,5 @@
 import 'package:ecommerce/Widget/product_card.dart';
+import 'package:ecommerce/cart_details.dart';
 import 'package:ecommerce/details_screen.dart';
 import 'package:ecommerce/models/my_prodcut.dart';
 import 'package:flutter/material.dart';
@@ -15,6 +16,17 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+        title: Text("E-Commerce Shop", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),),
+        centerTitle: true,
+        actions: [IconButton(onPressed: () {
+          Navigator.push(context, MaterialPageRoute(builder: (context) => CartDetails(),));
+          
+        }, icon: Icon(color: Colors.white,
+          Icons.add_shopping_cart,))],
+        
+      ),
         body: SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.all(8.0),
