@@ -26,7 +26,7 @@ class _DashboardState extends State<Dashboard> {
         },
         currentIndex: currentIndex,
         selectedItemColor: Colors.red,
-        unselectedItemColor: Colors.green,
+        unselectedItemColor: Color.fromARGB(255, 179, 187, 179),
         items: const [
           BottomNavigationBarItem(label: "Home", icon: Icon(Icons.home)),
           BottomNavigationBarItem(

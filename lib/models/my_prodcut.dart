@@ -6,7 +6,7 @@ class MyProducts {
     Product(
       id: 1,
       name: 'Nike Air Max 200',
-      price: 1150,
+      price: 1250,
       image: 'assets/images/shoes1.png',
       category: 'Trending Now',
       description:
@@ -51,7 +51,8 @@ class MyProducts {
       price: 3000,
       image: 'assets/images/jacket4.png',
       category: 'Trending Now',
-      description:'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
+      description:
+          'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
       quantity: 1,
     ),
     Product(
@@ -60,7 +61,8 @@ class MyProducts {
       price: 1500,
       image: 'assets/images/jacket4.png',
       category: 'Trending Now',
-      description:'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
+      description:
+          'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
       quantity: 1,
     ),
     Product(
@@ -69,7 +71,8 @@ class MyProducts {
       price: 2000,
       image: 'assets/images/jacket4.png',
       category: 'Trending Now',
-      description:'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
+      description:
+          'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
       quantity: 1,
     ),
     Product(
@@ -78,7 +81,8 @@ class MyProducts {
       price: 1800,
       image: 'assets/images/jacket4.png',
       category: 'Trending Now',
-      description:'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
+      description:
+          'Brown solid bomber, has a mock collar, 3 pockets ,has a zip closure, long sleeves, straight hemline, polyester lining',
       quantity: 1,
     ),
   ];
